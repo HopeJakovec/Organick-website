@@ -163,3 +163,75 @@
     background: #335B6B;
     border-radius: 50%;
 }
+
+.cards .container {
+    margin-top: 140px;
+    margin-bottom: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.cards .container .card_left {
+    background: url(../img/card-left.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+    padding-top: 105px;
+    padding-left: 55px;
+    padding-bottom: 105px;
+}
+
+.cards .container .card_left .card-header {
+    font-family: 'Yellowtail', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+}
+
+.cards .container .card_left .card-text {
+    width: 220px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+}
+
+.cards .container .card_right {
+    background: url(../img/card-right.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+    padding-top: 105px;
+    padding-left: 55px;
+    padding-bottom: 105px;
+}
+
+.cards .container .card_right .card-header {
+    font-family: 'Yellowtail', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    color: #7EB693;
+}
+
+.cards .container .card_right .card-text {
+    width: 264px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
