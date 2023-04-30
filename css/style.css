@@ -12,6 +12,50 @@
     margin-right: auto;
 }
 
+.text-green {
+    font-family: 'Yellowtail', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    color: #7EB693;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.btn {
+    padding: 25px 9px 25px 33px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn svg {
+    margin-left: 24px;
+    padding: 14px 12px;
+    background: #335B6B;
+    border-radius: 50%;
+}
+
 .header,
 .menu ul,
 .basket,
@@ -107,17 +151,6 @@
     margin-bottom: 250px;    
 }
 
-.promo .container p {
-    font-family: 'Yellowtail', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 65px;
-    letter-spacing: 0.36px;
-    text-transform: capitalize;
-    color: #7EB693;
-}
-
 .promo .container h2 {
     margin-top: 34px;
     font-family: 'Roboto', sans-serif;
@@ -130,38 +163,18 @@
     width: 40%;
 }
 
-.promo .container button {
-    margin-top: 30px;
-    padding: 22px 9px 22px 33px;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 32px;
-    letter-spacing: 0.36px;
-    text-transform: capitalize;
+.promo .container .btn {
     color: #274C5B;
     background: #EFD372;
     border: 1px solid #EFD372;
-    border-radius: 16px;
-    cursor: pointer;
-    transition: .3s ease;
+    margin-top: 30px;
 }
 
-.promo .container button:hover {
+.promo .container .btn:hover,
+.aboutUs .container .btn:hover {
     background: #7EB693;
     border: 1px solid #7EB693;
     transition: .3s ease;
-}
-
-.promo .container button svg {
-    margin-left: 24px;
-    padding: 14px 12px;
-    background: #335B6B;
-    border-radius: 50%;
 }
 
 .cards .container {
@@ -183,7 +196,7 @@
     padding-bottom: 105px;
 }
 
-.cards .container .card_left .card-header {
+.cards .container .card_left .text-white {
     font-family: 'Yellowtail', cursive;
     font-style: normal;
     font-weight: 400;
@@ -215,16 +228,6 @@
     padding-bottom: 105px;
 }
 
-.cards .container .card_right .card-header {
-    font-family: 'Yellowtail', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 65px;
-    letter-spacing: 0.36px;
-    color: #7EB693;
-}
-
 .cards .container .card_right .card-text {
     width: 264px;
     font-family: 'Roboto', sans-serif;
@@ -235,3 +238,84 @@
     letter-spacing: 0.36px;
     color: #274C5B;
 }
+
+.aboutUs {
+    background: #F9F8F8;
+}
+
+.aboutUs .container {
+    padding-top: 130px;
+    padding-bottom: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.aboutUs__img {
+    background: url(../img/about-us.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.aboutUs .container h3 {
+    margin-bottom: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+}
+
+.aboutUs__block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+}
+
+.aboutUs__block1,
+.aboutUs__block2 {
+    display: flex;
+    gap: 20px;
+}
+
+.text-header {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    margin-bottom: 9px;
+}
+
+.aboutUs__block1-img,
+.aboutUs__block2-img {
+    background: #FFF;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.aboutUs__block1-img svg {
+    margin: 27px 23px 27px 24px;
+}
+
+.aboutUs__block2-img svg {
+    margin: 24px 22px;
+}
+
+.aboutUs .container .btn {
+    color: #fff;
+    background: #274C5B;
+    border: 1px solid #274C5B;
+}
+
+
+
