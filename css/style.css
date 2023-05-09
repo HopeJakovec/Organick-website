@@ -591,3 +591,56 @@
 .products-catalog .container .prodacts__items {
     grid-template-rows: 1fr;
 }
+
+.advantages {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.advantages > div {
+    background: url(../img/advantages-fon.jpg);
+    background-repeat: no-repeat;
+}
+
+.advantages > div > div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 660px;
+    padding: 40px 60px 56px;
+    max-width: 720px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #FFF;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.advantages > div > div .text-h3 {
+    width: 52%;
+}
+
+.advantages .advantages__block {
+    margin-top: 30px;
+}
+
+.advantages .advantages__block > div:not(:first-child) {
+    margin-top: 15px;
+} 
+
+.advantages .advantages__block > div > p:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+}
+
+.advantages .advantages__block .text {
+    margin-top: 4px;
+}
