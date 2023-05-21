@@ -183,7 +183,8 @@
 
 .promo .container .btn:hover,
 .aboutUs .container .btn:hover,
-.products-catalog .container .btn:hover {
+.products-catalog .container .btn:hover,
+.email .container .btn:hover {
     background: #7EB693;
     border: 1px solid #7EB693;
     transition: .3s ease;
@@ -592,7 +593,8 @@
     grid-template-rows: 1fr;
 }
 
-.advantages {
+.advantages,
+.email {
     display: flex;
 }
 
@@ -690,4 +692,61 @@
     border-radius: 20px;
     padding: 30px 80px;
     box-sizing: border-box;
+}
+
+.email .container {
+    background: url(../img/email-fon.jpg);
+    background-repeat: no-repeat;
+    margin: 30px auto;
+}
+
+.email .container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 70px;
+}
+
+.email .container .email__header {
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+.email .container form {
+    display: flex;
+}
+
+.email .container form input {
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 16px;
+    margin-right: 10px;
+    padding: 26px 100px 26px 30px;
+    width: 220px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.email .container form input:focus,
+.email .container form input:hover {
+    border: 1px solid #7EB693;
+    transition: .3s ease;
+}
+
+.email .container .btn {
+    color: #fff;
+    background: #274C5B;
+    border: 1px solid #274C5B;
 }
